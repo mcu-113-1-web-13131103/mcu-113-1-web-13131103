@@ -47,9 +47,23 @@ body {
   .section {
     padding-block: 6em;
     min-height: 700px;
-  }
-}
 
-i {
-  font-style: 16px;
+    .top-header {
+      text-align: center;
+      margin-bottom: 5em;
+
+      h1 {
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+
+      span {
+        color: #999;
+      }
+    }
+  }
+
+  i {
+    font-style: 16px;
+  }
 }
